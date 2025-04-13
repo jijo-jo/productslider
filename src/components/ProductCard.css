@@ -1,0 +1,23 @@
+.product-card {
+    /* Existing styles */
+    transition: transform 0.3s ease-out; /* Add a transition for smooth animation */
+  }
+  
+  .product-card.swiping {
+    /* You might want to add some styles while the card is being swiped */
+  }
+  
+  .product-card.left {
+    transform: translateX(-200px) rotate(-10deg) !important;
+    opacity: 0 !important;
+  }
+  
+  .product-card.right {
+    transform: translateX(200px) rotate(10deg) !important;
+    opacity: 0 !important;
+  }
+  
+  .product-card.up {
+    transform: translateY(-150px) rotate(-5deg) !important;
+    opacity: 0 !important;
+  }
